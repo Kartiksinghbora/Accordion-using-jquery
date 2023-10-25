@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="apj.css">
+    <script src="apj.js"></script>
+    <title>APJ</title>
+</head>
+
+<body>
+    <div class="container">
+        <center>
+            <div id="first">
+                <p style="margin-top: 10px;">What is APJ Abdul kalam known for?</p>
+                <button style="margin-left:400px;margin-top:10px; font-weight: 900;" id="one">&#709;</button>
+                  <!-- onclick="show1()"  -->
+                    
+            </div>
+            <div id="first-col">
+                <p>
+                    A.P.J. Abdul Kalam served as president of the Republic of India from 2002 to 2007. As president,
+                    Kalam
+                    promoted the advancement of the national nuclear weapons program. Kalam also devised a 20-year
+                    action
+                    plan to achieve economic growth through technological development in India.
+                </p>
+            </div>
+           
+
+            <div id="second" style="margin-top: 5px;">
+                <p style="margin-top: 10px;">What organizations was A.P.J. Abdul Kalam associated with?</p>
+                <button style="margin-left:227px;margin-top:10px; font-weight: 900; " id="two">&#709;</button>
+                <!-- onclick="show2()" -->
+                   
+            </div>
+            <div id="second-col">
+                <p>
+                    A.P.J. Abdul Kalam attended the Madras Institute of Technology, where he received a degree in
+                    aeronautical engineering in 1960. After graduation he joined the Defence Research and Development
+                    Organisation (DRDO)—an Indian military research institute—and later the Indian Space Research
+                    Organisation (ISRO). Kalam’s associations were not limited to research organizations: he was also
+                    associated with political groups, such as the National Democratic Alliance (NDA).
+                </p>
+            </div>
+
+            <div id="third" style="margin-top: 5px;">
+                <p style="margin-top: 10px;">When and how did A.P.J. Abdul Kalam enter politics?</p>
+                <button style="margin-left:287px;margin-top:10px; font-weight: 900; "  id="three">&#709;</button>
+                    <!-- onclick="show3()" -->
+            </div>
+            <div id="third-col">
+                <p>
+                    A.P.J. Abdul Kalam created the Technology Vision 2020 project in 1998. The project sought to develop
+                    India’s economy through technology, particularly as applied to agriculture, and increase the
+                    availability of health care and education. In recognition of Kalam’s services to the country and
+                    broad popularity, the National Democratic Alliance nominated him for president in 2002.
+                </p>
+            </div>
+
+            <div id="fourth" style="margin-top: 5px;">
+                <p style="margin-top: 10px;">How many awards did A.P.J. Abdul Kalam win?</p>
+                <button style="margin-left:327px;margin-top:10px; font-weight: 900; " 
+                    id="four">&#709;</button>
+                    <!-- onclick="show4()" -->
+            </div>
+            <div id="fourth-col">
+                <p>
+                    A.P.J. Abdul Kalam won many awards, both from the Indian government and from the international
+                    community. His most notable awards were the Padma Vibhushan, won in 1990, and the Bharat Ratna, won
+                    in 1997, for his contributions to science and engineering and service to the government.
+                </p>
+            </div> 
+
+        </center>
+    </div>
+
+    <script>
+        $("#one").click(function(){
+            $("#first-col").slideToggle("fast");
+            $("#second-col").slideUp("fast");
+            $("#third-col").slideUp("fast");
+            $("#fourth-col").slideUp("fast");
+        });
+
+        $("#two").click(function(){
+            $("#second-col").slideToggle("fast");
+            $("#first-col").slideUp("fast");
+            $("#third-col").slideUp("fast");
+            $("#fourth-col").slideUp("fast");
+
+        });
+
+        $("#three").click(function(){
+            $("#third-col").slideToggle("fast");
+            $("#first-col").slideUp("fast");
+            $("#second-col").slideUp("fast");
+            $("#fourth-col").slideUp("fast");
+        });
+
+        $("#four").click(function(){
+            $("#fourth-col").slideToggle("fast");
+            $("#first-col").slideUp("fast");
+            $("#second-col").slideUp("fast");
+            $("#third-col").slideUp("fast");
+
+        });
+    </script>
+
+</body>
+
+</html>
