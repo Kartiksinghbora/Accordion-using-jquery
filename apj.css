@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .container{
+    /* display: grid; 
+   
+} */
+
+#first {
+    background-color: rgb(177, 164, 164);
+    height: 25px;
+    display: flex;
+    border: 2px solid rgb(179, 176, 176);
+    width: 42%;
+    height: 40px;
+    border-radius: 3px;
+    
+   
+}
+
+#first:hover {
+    background-color: rgb(114, 104, 104);
+}
+#first:hover button {
+    background-color: rgb(114, 104, 104);
+}
+
+#first-col {
+    border: 2px solid pink;
+    width: 42%;
+    display: none;
+}
+
+button {
+    background-color: rgb(177, 164, 164);
+    border: 0px;
+}
+
+
+#second {
+    background-color: rgb(177, 164, 164);
+    height: 43px;
+    display: flex;
+    border: 2px solid rgb(179, 176, 176);
+    width: 42%;
+    border-radius: 3px;
+}
+
+#second:hover button {
+    background-color: rgb(114, 104, 104);
+}
+#second:hover{
+    background-color: rgb(114, 104, 104);
+}
+
+#second-col {
+    border: 2px solid pink;
+    width: 42%;
+    display: none;
+}
+#third {
+    background-color: rgb(177, 164, 164);
+    height: 25px;
+    display: flex;
+    border: 2px solid rgb(179, 176, 176);
+    width: 42%;
+    height: 40px;
+    border-radius: 3px;
+    
+   
+}
+
+#third:hover {
+    background-color: rgb(114, 104, 104);
+}
+#third:hover button {
+    background-color: rgb(114, 104, 104);
+}
+
+#third-col {
+    border: 2px solid pink;
+    width: 42%;
+    display: none;
+}
+
+button {
+    background-color: rgb(177, 164, 164);
+    border: 0px;
+}
+
+#fourth {
+    background-color: rgb(177, 164, 164);
+    height: 25px;
+    display: flex;
+    border: 2px solid rgb(179, 176, 176);
+    width: 42%;
+    height: 40px;
+    border-radius: 3px;
+    
+   
+}
+
+#fourth:hover {
+    background-color: rgb(114, 104, 104);
+}
+#fourth:hover button {
+    background-color: rgb(114, 104, 104);
+}
+
+#fourth-col {
+    border: 2px solid pink;
+    width: 42%;
+    display: none;
+}
+
+button {
+    background-color: rgb(177, 164, 164);
+    border: 0px;
+}
+
+
+
+
+
+/* #third {
+    background-color: rgb(177, 164, 164);
+    height: 43px;
+    display: flex;
+    border: 2px solid rgb(179, 176, 176);
+    width: 45%;
+    border-radius: 3px;
+}
+
+#third:hover button {
+    background-color: rgb(114, 104, 104);
+}
+#third:hover{
+    background-color: rgb(114, 104, 104);
+}
+
+#third-col {
+    border: 2px solid pink;
+    width: 45%;
+    display: none;
+}
+
+#fourth{
+    background-color: rgb(177, 164, 164);
+    height: 43px;
+    display: flex;
+    border: 2px solid rgb(179, 176, 176);
+    width: 45%;
+    border-radius: 3px;
+}
+
+#fourth:hover button {
+    background-color: rgb(114, 104, 104);
+}
+#fourth:hover{
+    background-color: rgb(114, 104, 104);
+}
+
+#fourth-col {
+    border: 2px solid pink;
+    width: 45%;
+    display: none;
+} */
